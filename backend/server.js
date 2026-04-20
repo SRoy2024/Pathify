@@ -8,9 +8,9 @@ dotenv.config();
 
 const app = express();
 
-app.get("/api/test", (req, res) => {
-  res.json({ message: "API working 🚀" });
-});
+// app.get("/api/test", (req, res) => {
+//   res.json({ message: "API working 🚀" });
+// });
 
 // Body parser
 app.use(express.json());
